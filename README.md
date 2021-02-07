@@ -3,9 +3,6 @@
 ### Sobre mim
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
 
-### Demonstração
-Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-two/" target="_blank">Clique aqui</a>
-
 ### Descrição
 Este projeto tem como intuito aplicar e consolidar o conhecimento de HTML/CSS adquirido através dos seguintes cursos:
 
@@ -15,3 +12,5 @@ Este projeto tem como intuito aplicar e consolidar o conhecimento de HTML/CSS ad
 * (<a href="https://cursos.alura.com.br/certificate/b97424a9-97bc-4077-8091-8d0bd1ff247c" target="_blank">Certificado</a>) 
 <a href="https://cursos.alura.com.br/course/avancando-html-css" target="_blank">HTML5 E CSS3 II</a>
 
+### Demonstração
+Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-two/" target="_blank">Clique aqui</a>
