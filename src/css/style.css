@@ -58,7 +58,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.presentation__subtittle {
+.presentation__subtitle {
     font-family: "Heebo-Semibold",sans-serif;
     text-transform: uppercase;
 }
@@ -98,20 +98,20 @@ body {
 }
 
 .projects__content {
-    padding-top: 16rem;
+    padding-top: 14rem;
 }
 
 .projects__info {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .projects__title {
     color: #555;
-    font-size: 26px;
-    font-family: Rubik,sans-serif;
+    font-size: 34px;
+    font-family: "Heebo-Semibold",sans-serif;
     font-weight: 400;
-    flex: 8;
+    text-transform: uppercase;
 }
 
 .card__group {
@@ -123,7 +123,7 @@ body {
 
 .card {
 	background-repeat: no-repeat !important;
-    background-size: cover !important;
+        background-size: cover !important;
 	background-position: center !important;
 	display: inline-block;
 	transition-duration: .3s;
