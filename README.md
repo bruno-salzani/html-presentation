@@ -3,7 +3,10 @@
 ## Introdução
 
 #### Sobre mim
+* Bruno Borges Salzani
+* Analista de testes/QA
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
+* Email: <a href="mailto:bruno.salzani@hotmail.com" target="_blank">bruno.salzani@hotmail.com</a>
 
 ## Projeto
 
