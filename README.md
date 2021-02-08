@@ -1,7 +1,11 @@
-## HTML Project Two
+# HTML Project Two
+
+## Introdução
 
 #### Sobre mim
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
+
+## Sobre o projeto
 
 #### Demonstração
 Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-two/" target="_blank">Clique aqui</a>
