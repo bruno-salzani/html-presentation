@@ -1,19 +1,15 @@
-# HTML Project Two
+## HTML Project Two
 
-## Introdução
-
-#### Sobre mim
+### Sobre mim
 * Nome: Bruno Borges Salzani
-* Cargo: Analista de testes/QA
+* Cargo: Analista de testes
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
 * Email: <a href="mailto:bruno.salzani@hotmail.com" target="_blank">bruno.salzani@hotmail.com</a>
 
-## Projeto
-
-#### Demonstração
+### Demonstração
 Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-two/" target="_blank">Clique aqui</a>
 
-#### Descrição
+### Descrição
 Este projeto tem como objetivo aplicar e consolidar o conhecimento de HTML/CSS adquirido através dos seguintes cursos:
 
 * (<a href="https://cursos.alura.com.br/certificate/6ac2fe58-1b2c-436c-bdbc-0824b9ccc1a5" target="_blank">Certificado</a>) 
