@@ -1,4 +1,4 @@
-## HTML Project Two
+## Project HTML Portfolio
 
 ### Sobre mim
 * Nome: Bruno Borges Salzani
