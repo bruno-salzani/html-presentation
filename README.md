@@ -1,5 +1,4 @@
-## Portfolio - HTML
-
+## Introdução
 ### Sobre mim
 * Nome: Bruno Borges Salzani
 * Linkedin: <a href="https://www.linkedin.com/in/brunosalzani/" target="_blank">brunosalzani</a>
@@ -11,6 +10,8 @@
 3. <a href="https://github.com/bruno-salzani/project-html-courses" target="_blank">Courses</a>
 4. <a href="#" target="_blank">Architecture</a>
 5. <a href="#" target="_blank">Recipes</a>
+
+## Projeto
 
 ### Demonstração
 Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-two/" target="_blank">Clique aqui</a>
