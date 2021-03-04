@@ -28,6 +28,6 @@ Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.i
 
 ![GitHub Logo](/src/assets/img/thumb/thumb_1.jpg)
 
-![GitHub Logo](/src/assets/img/thumb/thumb_2.jpg)
-
 ![GitHub Logo](/src/assets/img/thumb/thumb_3.jpg)
+
+![GitHub Logo](/src/assets/img/thumb/thumb_2.jpg)
