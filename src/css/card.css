@@ -1,0 +1,50 @@
+.card__group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+	background-position: center !important;
+	display: inline-block;
+	transition-duration: .3s;
+	width: 380px;
+	height: 235px;
+	margin: 1rem;
+}
+
+.card:hover {
+	transform: scale(1.03);
+}
+
+@media (max-width: 1620px) {
+
+    .card {
+        width: 280px;
+        height: 175px;
+        margin: .5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .card__group {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 557px) {
+
+    .card__link {
+        width: 100%;
+    }
+
+    .card {
+        width: 96%;
+        height: 250px;
+    }
+}

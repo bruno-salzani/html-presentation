@@ -1,0 +1,11 @@
+.page__section--projects {
+    height: 100%;
+    background-color: #fff;
+    margin-top: -8rem;
+    padding-top: 14rem;
+    padding-bottom: 8rem;
+}
+
+.projects__content {
+    padding-top: 14rem;
+}
