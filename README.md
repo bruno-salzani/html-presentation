@@ -9,8 +9,6 @@
 1. <a href="https://github.com/bruno-salzani/project-html-barbershop" target="_blank">Barbershop</a>
 2. <a href="https://github.com/bruno-salzani/project-html-presentation" target="_blank">Presentation</a>
 3. <a href="https://github.com/bruno-salzani/project-html-courses" target="_blank">Courses</a>
-4. Architecture (Em desenvolvimento)
-5. Recipes (Em desenvolvimento)
 
 ## Projeto
 
