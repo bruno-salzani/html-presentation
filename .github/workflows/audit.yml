@@ -1,0 +1,33 @@
+name: Quality Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit:
+    name: Code Quality Audit
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm ci
+        
+      - name: Run HTML Linting
+        run: npx htmlhint index.html
+        
+      - name: Run CSS Linting
+        run: npx stylelint "src/css/**/*.css"
+        
+      - name: Check Formatting
+        run: npx prettier --check "**/*.{html,css,md}"

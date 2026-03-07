@@ -1,32 +1,78 @@
+:root {
+  --primary-color: #766dff;
+  --secondary-color: #88f3ff;
+  --text-color-dark: #222;
+  --text-color-gray: #4a4a4a;
+  --text-color-light-gray: #595959;
+  --bg-color-white: #fff;
+  --shadow-color: rgb(153 153 153 / 30%);
+  --font-regular: 'Heebo-Regular', sans-serif;
+  --font-bold: 'Heebo-Bold', sans-serif;
+  --font-semibold: 'Heebo-Semibold', sans-serif;
+  --font-thin: 'Heebo-Thin', sans-serif;
+}
+
+[data-theme="dark"] {
+  --primary-color: #9d96ff;
+  --secondary-color: #aef7ff;
+  --text-color-dark: #f0f0f0;
+  --text-color-gray: #e0e0e0;
+  --text-color-light-gray: #ccc;
+  --bg-color-white: #1a1a1a;
+  --shadow-color: rgb(0 0 0 / 50%);
+}
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Heebo-Regular",sans-serif;
-    
+  font-family: var(--font-regular);
+  background-color: var(--bg-color-white);
+  color: var(--text-color-dark);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Scroll Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .color__gray {
-    color: #555;
+  color: var(--text-color-gray);
 }
 
 @font-face {
-    font-family: "Heebo-Bold";
-    src: url("../assets/fonts/Heebo-Bold.ttf") format("woff2")
+  font-family: Heebo-Bold;
+  src: url('../assets/fonts/Heebo-Bold.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Heebo-Semibold";
-    src: url("../assets/fonts/Heebo-SemiBold.ttf") format("woff2")
+  font-family: Heebo-Semibold;
+  src: url('../assets/fonts/Heebo-SemiBold.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Heebo-Regular";
-    src: url("../assets/fonts/Heebo-Regular.ttf") format("woff2")
+  font-family: Heebo-Regular;
+  src: url('../assets/fonts/Heebo-Regular.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Heebo-Thing";
-    src: url("../assets/fonts/Heebo-Thin.ttf") format("woff2")
+  font-family: Heebo-Thin;
+  src: url('../assets/fonts/Heebo-Thin.ttf') format('truetype');
+  font-display: swap;
 }

@@ -1,0 +1,57 @@
+@media print {
+  body {
+    background-color: white;
+    color: black;
+  }
+
+  .page__section--presentation,
+  .page__section--timeline,
+  .page__section--projects {
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+  }
+
+  .presentation__container {
+    box-shadow: none !important;
+    border: 1px solid #ddd;
+    margin-top: 1rem !important;
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+
+  .presentation__img {
+    max-width: 200px !important;
+    height: auto !important;
+  }
+
+  .presentation__title {
+    color: black !important;
+  }
+
+  .presentation__content {
+    padding: 1rem !important;
+  }
+
+  .card__group {
+    display: block !important;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+    width: 100% !important;
+    height: 150px !important;
+  }
+
+  .timeline__container {
+    page-break-inside: avoid;
+  }
+
+  /* Hide decorative elements if necessary */
+  .timeline::after {
+    background-color: #ccc !important;
+  }
+}
